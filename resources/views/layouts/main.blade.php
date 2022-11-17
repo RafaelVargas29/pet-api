@@ -11,8 +11,8 @@
     <body>
         <header class="top">
             <nav class="navbar">
-                <button class="btn-nav"><a href="/show"> Ver pet aleatório</a></button>
-                <button class="btn-nav"><a href="/"> Home</a></button>
+                <a class="btn-nav" href="/show"> Ver pet aleatório</a>
+                <a class="btn-nav" href="/"> Home</a>
             </nav>
         </header>
         
