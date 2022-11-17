@@ -1,3 +1,60 @@
+/* -------------------------------Layout.main.php -------------------------------*/
+/* geral */
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* cabeçalho */
+.top{
+    position: relative;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: plum;
+    justify-content: center;
+    align-items: center;
+}
+
+/* navegação */
+.btn-nav{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* conteúdo */
+.mid{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+/* rodapé */
+.bot{
+    position: relative;
+    display: flex;
+    height: 10vh;
+    background: plum;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------------- Show.blade.php ------------------------------- */
 .image{
     width: 400px;
     height: 400px;
