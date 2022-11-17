@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/show', [PetController::class, 'randonPet']);
-//Route::get('/show', [PetController::class, 'search']);
+Route::get('/breeds', [PetController::class, 'breedPet']);

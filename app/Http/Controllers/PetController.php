@@ -18,4 +18,12 @@ class PetController extends Controller
         return view('/pets/show', ['data'=> $data[0]]);
     } 
     
+    public function breedPet(){
+        $response_breed = Http::get('https://api.thedogapi.com/v1/breeds');
+        $data_breed = json_decode($response_breed->body());
+        
+        //dd($data_breed);
+
+        return view('/pets/breeds', ['data_breed'=> $data_breed]);
+    }
 }

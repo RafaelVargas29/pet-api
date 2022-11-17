@@ -10,7 +10,7 @@
         <img class="image" src="{{ $data->url }}" alt="Imagem aleatória de um cachorro"><br>
         </section>
         
-       <a class="btn-updater-show" href="/show">Atualizar pet</a><br>
+       <a class="btn-updater-show" href="/show">Atualizar cachorro</a><br>
     </section>
 @endsection
 

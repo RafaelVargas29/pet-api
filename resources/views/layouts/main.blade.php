@@ -11,7 +11,8 @@
     <body>
         <header class="top">
             <nav class="navbar">
-                <a class="btn-nav" href="/show"> Ver pet aleatório</a>
+                <a class="btn-nav" href="/show"> Ver cachorro aleatório</a>
+                <a class="btn-nav" href="/breeds"> Ver raças de cachorro</a>
                 <a class="btn-nav" href="/"> Home</a>
             </nav>
         </header>
