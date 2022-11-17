@@ -18,4 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/show', [PetController::class, 'search']);
+Route::get('/show', [PetController::class, 'randonPet']);
+//Route::get('/show', [PetController::class, 'search']);

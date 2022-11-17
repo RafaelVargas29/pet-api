@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Http;
 
 class PetController extends Controller
 {
-    public function search(){
+    public function randonPet(){
 
         $response = Http::get('https://api.thedogapi.com/v1/images/search');
         $data = json_decode($response->body());
