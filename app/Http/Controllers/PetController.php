@@ -23,7 +23,13 @@ class PetController extends Controller
         $data_breed = json_decode($response_breed->body());
         
         //dd($data_breed);
+        
+        foreach($data_breed as $dt){
+            $img[] = $dt->image->url;
+        }
 
-        return view('/pets/breeds', ['data_breed'=> $data_breed]);
+        //dd($img);
+
+        return view('/pets/breeds', ['data_breed'=> $data_breed, 'img' => $img]);
     }
 }
